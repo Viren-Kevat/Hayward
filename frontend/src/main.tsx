@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.tsx'
 
 // Wake up the Render backend on page load (free-tier servers sleep after inactivity)
-fetch('https://api.drhsienhayward.com/health', { mode: 'cors' }).catch(
+fetch('https://hayward.onrender.com/api/health', { mode: 'cors' }).catch(
   () => {} // silently ignore errors
 )
 
