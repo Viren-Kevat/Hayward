@@ -22,7 +22,6 @@
     "verbatimModuleSyntax": false,
     "moduleDetection": "force",
     "noEmit": true,
-    "baseUrl": "./",
     "paths": {
       "@/*": [
         "./src/*"
