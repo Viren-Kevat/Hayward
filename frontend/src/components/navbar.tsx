@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#" },
@@ -14,7 +14,6 @@ const navLinks = [
 
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   return (
     <nav className="navbar" id="main-nav">
@@ -31,32 +30,10 @@ export function Navbar() {
             <div
               key={link.label}
               className="navbar-link-group"
-              onMouseEnter={() => link.children && setActiveDropdown(link.label)}
-              onMouseLeave={() => setActiveDropdown(null)}
             >
               <a href={link.href} className="navbar-link" id={`nav-${link.label.toLowerCase().replace(/\s+/g, '-')}`}>
                 {link.label}
-                {link.children && <ChevronDown size={14} />}
               </a>
-
-              {/* Dropdown */}
-              <AnimatePresence>
-                {link.children && activeDropdown === link.label && (
-                  <motion.div
-                    className="navbar-dropdown"
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 8 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    {link.children.map((child) => (
-                      <a key={child.label} href={child.href} className="navbar-dropdown-item">
-                        {child.label}
-                      </a>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
             </div>
           ))}
         </div>
