@@ -101,7 +101,7 @@ app.post("/api/feedback", async (req, res) => {
         <!-- Footer -->
         <div style="padding: 16px 32px; background: #F3F1ED; text-align: center;">
           <p style="margin: 0; font-size: 12px; color: #8A8A9A;">
-            Houston Therapy &middot; www.houston-therapy.com
+          H’Sien Hayward &middot; www.H’Sien-Hayward.com
           </p>
         </div>
       </div>
