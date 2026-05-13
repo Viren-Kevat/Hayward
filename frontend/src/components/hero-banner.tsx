@@ -12,10 +12,10 @@ import {
 import heroImage from "@/assets/img-1.jpg";
 
 const specialties = [
-  { icon: Brain, label: "Anxiety & ADHD" },
-  { icon: Heart, label: "Trauma & PTSD" },
-  { icon: Shield, label: "Depression" },
-  { icon: Sparkles, label: "Couples & Family" },
+  { icon: Brain, label: "Individual Therapy" },
+  { icon: Heart, label: "Couples Therapy" },
+  { icon: Shield, label: "Consulting" },
+  { icon: Sparkles, label: "Speaking" },
 ];
 
 export function HeroBanner() {
@@ -37,7 +37,7 @@ export function HeroBanner() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <span className="hero-badge-dot" />
-            Dr. H'Sien Hayward, Clinical Psychologist
+            Dr. H'Sien Hayward, Ph.D. — Clinical Psychologist
           </motion.div>
 
           {/* Heading */}
@@ -47,9 +47,9 @@ export function HeroBanner() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Therapy Tailored to How You{" "}
-            <span className="gradient-text">Think, Feel,</span> and{" "}
-            <span className="gradient-text">Live</span>
+            Illuminate What Is Truly{" "}
+            <span className="gradient-text">Possible</span> for{" "}
+            <span className="gradient-text">Your Life</span>
           </motion.h1>
 
           {/* Subtext */}
@@ -59,10 +59,10 @@ export function HeroBanner() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.45 }}
           >
-            We provide therapy in Houston for anxiety, ADHD, trauma,
-            relationship issues, and personal growth. Our therapists work with
-            adults and teens using structured, personalized approaches to help
-            you make meaningful, lasting change.
+            Dr. H'Sien Hayward offers culturally-sensitive, evidence-based therapy
+            for adults and couples. Through insight-oriented and skills-based
+            approaches, she helps clients access their inherent strengths and
+            move closer to their full potential.
           </motion.p>
 
           {/* Specialty Tags */}
@@ -96,7 +96,7 @@ export function HeroBanner() {
           >
             <a href="#contact" className="btn-primary">
               <CalendarCheck size={18} />
-              Schedule a Free Consultation
+              Request a Free Consultation
               <ArrowRight size={16} />
             </a>
             <a href="tel:650-535-2633" className="btn-secondary">
@@ -113,18 +113,18 @@ export function HeroBanner() {
             transition={{ duration: 0.8, delay: 0.9 }}
           >
             <div className="hero-trust-item">
-              <span className="hero-trust-number">12+</span>
-              <span className="hero-trust-label">Expert Therapists</span>
+              <span className="hero-trust-number">Harvard</span>
+              <span className="hero-trust-label">Ph.D. Training</span>
             </div>
             <div className="hero-trust-divider" />
             <div className="hero-trust-item">
-              <span className="hero-trust-number">18+</span>
-              <span className="hero-trust-label">Specializations</span>
+              <span className="hero-trust-number">Phone & Video</span>
+              <span className="hero-trust-label">Sessions Only</span>
             </div>
             <div className="hero-trust-divider" />
             <div className="hero-trust-item">
-              <span className="hero-trust-number">Mon-Fri</span>
-              <span className="hero-trust-label">8AM – 9PM</span>
+              <span className="hero-trust-number">Adults</span>
+              <span className="hero-trust-label">& Couples</span>
             </div>
           </motion.div>
         </motion.div>

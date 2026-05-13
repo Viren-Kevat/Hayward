@@ -7,9 +7,9 @@ const navLinks = [
   { label: "Home", href: "#" },
   { label: "About", href: "#about-section" },
   { label: "Services", href: "#services-section" },
-  { label: "Fees & Insurance", href: "#fees" },
+  { label: "Testimonials", href: "#testimonials" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
-  { label: "Blog", href: "#blog" },
 ];
 
 export function Navbar() {

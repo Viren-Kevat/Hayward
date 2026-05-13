@@ -4,22 +4,20 @@ import { MapPin, Phone, Mail, Clock, ArrowUpRight } from "lucide-react";
 
 const quickLinks = [
   { label: "Individual Therapy", href: "#" },
-  { label: "Couples Counseling", href: "#" },
-  { label: "Family Therapy", href: "#" },
-  { label: "Psychological Assessment", href: "#" },
-  { label: "Teen Counseling", href: "#" },
-  { label: "Career Counseling", href: "#" },
+  { label: "Couples Therapy", href: "#" },
+  { label: "Consulting", href: "#" },
+  { label: "Speaking & Presentations", href: "#" },
 ];
 
 const specializations = [
   { label: "Anxiety", href: "#" },
   { label: "Depression", href: "#" },
-  { label: "Trauma & PTSD", href: "#" },
-  { label: "ADHD", href: "#" },
-  { label: "EMDR", href: "#" },
-  { label: "LGBTQ+", href: "#" },
-  { label: "Grief & Loss", href: "#" },
-  { label: "Insomnia (CBT-I)", href: "#" },
+  { label: "Couples & Relationships", href: "#" },
+  { label: "Disability Inclusion", href: "#" },
+  { label: "Stress & Burnout", href: "#" },
+  { label: "Mindfulness", href: "#" },
+  { label: "Positive Psychology", href: "#" },
+  { label: "Resilience", href: "#" },
 ];
 
 export function Footer() {
@@ -64,7 +62,7 @@ export function Footer() {
               <span className="footer-logo-text">H. Hayward, Ph.D.</span>
             </div>
             <p className="footer-brand-desc">
-              Clinical psychology, consulting, and speaking grounded in research, cultural sensitivity, and compassion.
+              Clinical psychology, consulting, and speaking grounded in research, cultural sensitivity, and compassion. Phone & video sessions only.
             </p>
             <div className="footer-contact-list">
               <div className="footer-contact-item">
@@ -121,11 +119,11 @@ export function Footer() {
             <h4 className="footer-col-title">Quick Links</h4>
             <ul className="footer-link-list">
               <li><a href="#" className="footer-link">Home</a></li>
-              <li><a href="#" className="footer-link">Therapists</a></li>
-              <li><a href="#" className="footer-link">Schedule</a></li>
-              <li><a href="#" className="footer-link">Contact</a></li>
-              <li><a href="#" className="footer-link">FAQ</a></li>
-              <li><a href="#" className="footer-link">Blog</a></li>
+              <li><a href="#about-section" className="footer-link">About</a></li>
+              <li><a href="#services-section" className="footer-link">Services</a></li>
+              <li><a href="#testimonials" className="footer-link">Testimonials</a></li>
+              <li><a href="#faq" className="footer-link">FAQ</a></li>
+              <li><a href="#contact" className="footer-link">Contact</a></li>
             </ul>
           </div>
         </div>

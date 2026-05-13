@@ -32,8 +32,8 @@ interface AboutSectionProps {
 }
 
 const AboutSection = ({
-  badge = "About Dr. H'Sien Hayward",
-  heading = "Helping adults and couples transform with warm, research-informed care.",
+  badge = "About Dr. H'Sien Hayward, Ph.D.",
+  heading = "Passionate about helping adults and couples transform and thrive.",
   description = (
     <>
      <span className="gradient-text">Dr. H’Sien Hayward</span> is passionate about helping adult individuals and couples transform and thrive. She offers culturally-sensitive, evidence-based therapy that is tailored to each person’s strengths and goals.
@@ -45,10 +45,10 @@ const AboutSection = ({
       icon: <Heart className="h-auto w-4 shrink-0" />,
       label: "Clinical Care",
       content: {
-        badge: "Strengths-Based Therapy",
-        title: "Insight, science, and compassionate support.",
+        badge: "Insight-Oriented & Skills-Based",
+        title: "Helping clients access their inherent strengths.",
         description:
-          "Dr. Hayward integrates insight-oriented and skills-based approaches, using CBT, ACT, and DBT to help clients gain clarity, build new skills, and move toward a life they love.",
+          "Dr. Hayward integrates insight-oriented and skills-based approaches, using CBT, ACT, and DBT to help clients gain clarity, build new skills, and move toward a life aligned with their values and full potential.",
         buttonText: "Learn More",
         imageSrc: aboutOffice,
         imageAlt:
@@ -60,8 +60,8 @@ const AboutSection = ({
       icon: <Users className="h-auto w-4 shrink-0" />,
       label: "Education",
       content: {
-        badge: "Harvard & Stanford Training",
-        title: "Deep clinical and academic experience.",
+        badge: "Harvard & Stanford",
+        title: "Deep clinical and academic training.",
         description:
           "PhD from Harvard University, postdoctoral respecialization at California School of Professional Psychology, and clinical training at VA Medical Centers, Kaiser Permanente, and Stanford University Medical Center.",
         buttonText: "View Credentials",
@@ -78,7 +78,7 @@ const AboutSection = ({
         badge: "Consulting & Speaking",
         title: "Trusted by clients and organizations.",
         description:
-          "Dr. Hayward supports individuals and couples across therapy, consulting, and speaking engagements, offering a thoughtful blend of compassion, expert training, and practical tools.",
+          "Dr. Hayward supports individuals and couples through therapy, consulting on graduate school, private practice, and disability inclusion, and delivers engaging speaking engagements on stress, mindfulness, ableism, and resilience.",
         buttonText: "Contact for Speaking",
         imageSrc: aboutTeam,
         imageAlt:

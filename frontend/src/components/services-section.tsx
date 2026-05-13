@@ -24,21 +24,21 @@ const services = [
     title: "Couples Therapy",
     tagline: "Renew Your Connection",
     description:
-      "Therapy for couples rooted in the science of attachment, using evidence-based strategies to transform conflict into deeper trust, intimacy, and connection.",
+      "Therapy for couples that is rooted in the science of attachment and uses gold standard interventions to enable fundamentally different ways of relating to one another.",
   },
   {
     icon: Briefcase,
     title: "Consulting",
     tagline: "Let's Put Our Minds Together",
     description:
-      "Consulting topics include graduate school applications, dissertation support, clinical training plans, disability inclusion, meditation practice, and building a private practice.",
+      "Topics include applying to and making it through graduate school programs in psychology, writing the dissertation, clinical internship applications, starting a private practice, disability inclusion, and more.",
   },
   {
     icon: GraduationCap,
     title: "Speaking & Presentations",
     tagline: "Knowledge is Power",
     description:
-      "Dr. Hayward delivers engaging talks on mental health, disability cultural competence, positive psychology, resilience, and the science of happiness.",
+      "From mental health to disability as diversity — engaging Lunch & Learn events, podcast interviews, Grand Rounds presentations, and didactic lectures on stress, mindfulness, ableism, and resilience.",
   },
 ];
 
@@ -66,13 +66,13 @@ export function ServicesSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="services-label">Our Services</span>
+          <span className="services-label">What I Offer</span>
           <h2 className="section-title">
-            Comprehensive Mental Health{" "}
-            <span className="gradient-text">Services</span>
+            Therapy, Consulting &{" "}
+            <span className="gradient-text">Speaking</span>
           </h2>
           <p className="section-subtitle" style={{ margin: "0 auto" }}>
-            Dr. H'Sien Hayward provides evidence-based counseling, consulting, and speaking support for adults, couples, and professionals.
+            Dr. H'Sien Hayward provides evidence-based therapy, consulting, and speaking for adults, couples, and professionals — by phone and video.
           </p>
         </motion.div>
 

@@ -32,9 +32,9 @@ const testimonials: Testimonial[] = [
     id: 2,
     name: "James & Lisa R.",
     role: "Clients",
-    company: "Couples Counseling",
+    company: "Couples Therapy",
     content:
-      "We were on the brink of separation when we started couples counseling. Our therapist helped us rebuild communication and trust in ways we didn't think were possible. We're stronger now than we've been in years. We're so grateful for the safe space they created for us.",
+      "We were on the brink of separation when we started couples therapy with Dr. Hayward. She helped us rebuild communication and trust in ways we didn't think were possible. We're stronger now than we've been in years. We're so grateful for the safe space she created for us.",
     rating: 5,
     avatar: "https://randomuser.me/api/portraits/men/32.jpg",
   },
@@ -42,9 +42,9 @@ const testimonials: Testimonial[] = [
     id: 3,
     name: "Michelle T.",
     role: "Client",
-    company: "EMDR Therapy",
+    company: "Individual Therapy",
     content:
-      "After years of living with PTSD, EMDR therapy with Dr. Hayward gave me my life back. The trauma that used to control my daily life no longer has the same grip. She was compassionate, patient, and incredibly skilled. I can't recommend her enough.",
+      "After years of living with anxiety and self-doubt, working with Dr. Hayward gave me my life back. She was compassionate, patient, and incredibly skilled. I learned to access strengths I didn't know I had. I can't recommend her enough.",
     rating: 5,
     avatar: "https://randomuser.me/api/portraits/women/68.jpg",
   },
@@ -52,9 +52,9 @@ const testimonials: Testimonial[] = [
     id: 4,
     name: "David K.",
     role: "Client",
-    company: "ADHD Assessment",
+    company: "Consulting",
     content:
-      "Getting a proper ADHD assessment as an adult was life-changing. The neuropsychological evaluation was thorough, and the team explained everything clearly. For the first time, I understood why I struggled — and more importantly, how to work with my brain instead of against it.",
+      "Dr. Hayward's consulting was life-changing for my career in psychology. Her guidance on graduate school applications, the dissertation process, and clinical internship prep was thorough and encouraging. For the first time, I felt confident navigating the path ahead.",
     rating: 5,
     avatar: "https://randomuser.me/api/portraits/men/46.jpg",
   },
@@ -143,9 +143,8 @@ const TestimonialsSection = () => {
               </h2>
 
               <p className="testimonials-subtitle">
-                Our clients' experiences speak to the impact of personalized,
-                compassionate therapy. Every journey is unique — here are a few
-                of theirs.
+                Hear from clients and professionals who have worked with Dr. Hayward.
+                Every journey is unique — here are a few of theirs.
               </p>
 
               <div className="testimonials-dots">

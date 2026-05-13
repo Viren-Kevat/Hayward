@@ -41,21 +41,21 @@ const faqData: FaqItem[] = [
     title: "What types of therapy do you offer?",
     image: faqTherapyTypes,
     description:
-      "We offer a wide range of evidence-based therapies including Individual Therapy, Couples Counseling, Family Therapy, Teen Counseling, Psychological & Neuropsychological Assessment, and Ketamine Assisted Psychotherapy. Our therapists use modalities like EMDR, Brainspotting, CBT, DBT, ACT, and mindfulness-based approaches — tailored to each client's unique needs.",
+      "Dr. Hayward offers Individual Therapy, Couples Therapy, Consulting, and Speaking & Presentations. She integrates evidence-based approaches including CBT, ACT, and DBT — tailored to each client's unique strengths and goals.",
   },
   {
     id: 4,
     title: "How do I schedule an appointment?",
     image: faqScheduling,
     description:
-      "You can request a free phone consultation by calling (650) 535-2633 or emailing hsien@drhsienhayward.com. Appointment times are available by scheduling only and are offered as phone or video sessions.",
+      "You can request a free phone consultation by calling (650) 535-2633 or emailing hsien@drhsienhayward.com. Appointments are available by scheduling only and are offered as phone or video sessions.",
   },
   {
     id: 5,
     title: "Is everything I share confidential?",
     image: faqConfidentiality,
     description:
-      "Absolutely. Confidentiality is a cornerstone of the therapeutic relationship and is protected by law. What you share in therapy stays between you and your therapist. There are very limited legal exceptions (such as imminent danger to self or others), which your therapist will explain during your first session. We take your privacy extremely seriously.",
+      "Absolutely. Confidentiality is a cornerstone of the therapeutic relationship and is protected by law. What you share in therapy stays between you and Dr. Hayward. There are very limited legal exceptions (such as imminent danger to self or others), which will be explained during your first session. Your privacy is taken extremely seriously.",
   },
 ];
 
