@@ -37,7 +37,7 @@ export function HeroBanner() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <span className="hero-badge-dot" />
-            Dr. H'Sien Hayward, Ph.D. — Clinical Psychologist
+            Dr. H'Sien Hayward, Ph.D.  Clinical Psychologist
           </motion.div>
 
           {/* Heading */}
@@ -140,7 +140,7 @@ export function HeroBanner() {
         <div className="hero-image-container">
           <img
             src={heroImage}
-            alt="Portrait-style scene for Dr. H'Sien Hayward — calm, warm clinical consulting environment"
+            alt="Portrait-style scene for Dr. H'Sien Hayward  calm, warm clinical consulting environment"
             className="hero-image"
           />
           {/* Floating accent card */}

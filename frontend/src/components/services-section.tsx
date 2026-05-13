@@ -38,7 +38,7 @@ const services = [
     title: "Speaking & Presentations",
     tagline: "Knowledge is Power",
     description:
-      "From mental health to disability as diversity — engaging Lunch & Learn events, podcast interviews, Grand Rounds presentations, and didactic lectures on stress, mindfulness, ableism, and resilience.",
+      "From mental health to disability as diversity  engaging Lunch & Learn events, podcast interviews, Grand Rounds presentations, and didactic lectures on stress, mindfulness, ableism, and resilience.",
   },
 ];
 
@@ -72,7 +72,7 @@ export function ServicesSection() {
             <span className="gradient-text">Speaking</span>
           </h2>
           <p className="section-subtitle" style={{ margin: "0 auto" }}>
-            Dr. H'Sien Hayward provides evidence-based therapy, consulting, and speaking for adults, couples, and professionals — by phone and video.
+            Dr. H'Sien Hayward provides evidence-based therapy, consulting, and speaking for adults, couples, and professionals  by phone and video.
           </p>
         </motion.div>
 

@@ -41,7 +41,7 @@ const faqData: FaqItem[] = [
     title: "What types of therapy do you offer?",
     image: faqTherapyTypes,
     description:
-      "Dr. Hayward offers Individual Therapy, Couples Therapy, Consulting, and Speaking & Presentations. She integrates evidence-based approaches including CBT, ACT, and DBT — tailored to each client's unique strengths and goals.",
+      "Dr. Hayward offers Individual Therapy, Couples Therapy, Consulting, and Speaking & Presentations. She integrates evidence-based approaches including CBT, ACT, and DBT  tailored to each client's unique strengths and goals.",
   },
   {
     id: 4,
@@ -72,7 +72,7 @@ const FaqSection = () => {
             Everything You Need to Know
           </h2>
           <p className="faq-description">
-            Common questions about Dr. H'Sien Hayward’s practice — we're here to make the process as easy and transparent as possible.
+            Common questions about Dr. H'Sien Hayward’s practice  we're here to make the process as easy and transparent as possible.
           </p>
         </div>
 

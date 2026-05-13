@@ -24,7 +24,7 @@ const testimonials: Testimonial[] = [
     role: "Client",
     company: "Individual Therapy",
     content:
-      "Working with Dr. Hayward completely changed my perspective on mental health. She helped me understand patterns I'd been struggling with for years. The integrative approach felt personalized — not a one-size-fits-all solution. I finally feel like I have the tools to manage my anxiety.",
+      "Working with Dr. Hayward completely changed my perspective on mental health. She helped me understand patterns I'd been struggling with for years. The integrative approach felt personalized  not a one-size-fits-all solution. I finally feel like I have the tools to manage my anxiety.",
     rating: 5,
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
   },
@@ -144,7 +144,7 @@ const TestimonialsSection = () => {
 
               <p className="testimonials-subtitle">
                 Hear from clients and professionals who have worked with Dr. Hayward.
-                Every journey is unique — here are a few of theirs.
+                Every journey is unique  here are a few of theirs.
               </p>
 
               <div className="testimonials-dots">
