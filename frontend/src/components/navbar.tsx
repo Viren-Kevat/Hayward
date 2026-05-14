@@ -20,7 +20,7 @@ export function Navbar() {
       <div className="navbar-inner">
         {/* Logo */}
         <a href="#" className="navbar-logo" id="navbar-logo">
-          <span className="navbar-logo-icon">HH</span>
+          <img src="/favicon.jpeg" alt="Logo" className="navbar-logo-image" />
           <span className="navbar-logo-text">H. Hayward, Ph.D.</span>
         </a>
 
@@ -115,18 +115,11 @@ export function Navbar() {
           font-family: var(--font-heading);
         }
 
-        .navbar-logo-icon {
+        .navbar-logo-image {
           width: 38px;
           height: 38px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
-          color: white;
-          font-size: 0.85rem;
-          font-weight: 800;
-          border-radius: 10px;
-          letter-spacing: -0.02em;
+          object-fit: cover;
+          border-radius: 50%;
         }
 
         .navbar-logo-text {
