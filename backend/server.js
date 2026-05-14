@@ -65,7 +65,7 @@ app.post("/api/feedback", async (req, res) => {
             ✨ New Website Feedback
           </h1>
           <p style="margin: 8px 0 0; color: rgba(255,255,255,0.85); font-size: 14px;">
-            Houston Therapy Website
+            H’Sien Hayward Website
           </p>
         </div>
 
